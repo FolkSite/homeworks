@@ -83,8 +83,8 @@ if ($_POST["result"]){
   }else {
     echo "error" . '<br>';}
 };
-
-
+?>
+<?php
 //16
 $a=75;
 $b=83;
@@ -132,8 +132,3 @@ echo MONTH_COUNT . "</br>"
 ?>
 </body>
 </html>
-	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/dashboard/');
-	exit;
-?>
-Something is wrong with the XAMPP installation :-(
