@@ -1,9 +1,4 @@
-<?php
-	if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
-		$uri = 'https://';
-	} else {
-		$uri = 'http://';
-	}<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
